@@ -1,18 +1,35 @@
-# java_act3
-Se desarrollaron:
+java_act3
+Este proyecto consiste en la implementación de una clase Product y una clase Main en Java, siguiendo los estándares de programación orientada a objetos y organización por paquetes.
 
-- Atributos privados (encapsulamiento).
-- Constructor por defecto.
-- Constructor parametrizado.
-- Métodos getter y setter (con validación para precio y stock).
-- Sobrescritura del método `toString()`.
-- Clase `Main` para demostrar el funcionamiento.
+Se desarrollaron las siguientes funcionalidades:
 
-## Cómo compilar y ejecutar el código
-Para compilar el programa, primero abro la consola y me ubico en la carpeta donde están los archivos Product.java y Main.java. Luego escribo javac Product.java Main.java para compilar.
-Si no aparecen errores, ejecuto el programa con java Main y en la consola se muestra la información de los productos creados.
+Atributos privados para asegurar el encapsulamiento de los datos.
 
-##resultado esperado:
+Constructor por defecto para inicializar objetos vacíos.
+
+Constructor parametrizado para la creación ágil de productos.
+
+Métodos getter y setter con validaciones de lógica de negocio para precio y stock.
+
+Sobrescritura del método toString() para una representación clara de los objetos.
+
+Clase Main que demuestra el funcionamiento y flujo del sistema.
+
+Estructura del Proyecto
+El código fuente está organizado siguiendo el estándar de Maven, ubicándose en el paquete com.example. Los archivos se encuentran en la ruta: src/main/java/com/example/.
+
+Cómo compilar y ejecutar el código
+Para que el programa funcione correctamente con su estructura de paquetes, se deben seguir estos pasos desde la raíz del proyecto:
+
+Compilación: Se utiliza el compilador de Java especificando el directorio de salida para que respete la jerarquía de paquetes:
+javac -d . src/main/java/com/example/*.java
+
+Ejecución: Se invoca la máquina virtual de Java llamando a la clase principal por su nombre calificado:
+java com.example.Main
+
+Resultado esperado en consola:
+Al ejecutar el programa, se visualizará la siguiente información
+
 Producto 1 - Nombre: Laptop
 Producto 1 - Precio: 1200.0
 Producto 2 - Nombre: Mouse
