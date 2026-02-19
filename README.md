@@ -21,3 +21,5 @@ Representación completa:
 Producto [ID: P123, Nombre: Laptop, Precio: 1200.0, Stock: 50]
 Producto [ID: P456, Nombre: Mouse, Precio: 25.0, Stock: 100]
 
+proyecto actualizado:estructura de paquetes corregida
+
